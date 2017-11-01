@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>ABOUT Kate's Cooking</title>
+	
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+<div>
+	<a name="top" />
+	<h1>ABOUT Kate's Cooking</h1>
+	<p><%= link_to('HomePage',home_path) %></p>
+	<img src="assets/images/kate01.jpg" height="170">
+	
+	<p><em>"I hope your ready for an exciting taste expedition!" - Kate</em></p>
+	<hr />
+		
+	<br />
+	<h2>Begin Your Journey By Making A Selction Below:</h2>
+	<a href=""><img src="assets/images/pumpkin_pie.jpg" height="150"></a>
+	<a href=""><img src="assets/images/cheese_cake.jpg" height="150"></a>
+	<a href=""><img src="assets/images/shakes.jpg" height="150"></a>
+	<a href=""><img src="assets/images/african_food.jpg" height="150"></a>
+	
+	<hr />
+	
+	<h3>About Me and My Kitchen:</h3>
+	
+	<img src="assets/images/kate02.jpg" height="150">
+	<p>
+	Welcome to my kitchen everyone!  I've always enjoyed ... I learned from ... and finally decided that I wanted to share my creations with
+	others.  I've enjoyed ... and I hope you enjoy tasting some of the love-filled dishes.  Please dive in and explore.
+	</p>
+	
+	<hr />
+	
+	<h3>I'd Love To Hear <em>Your</em> Suggestions!</h3>
+	<img src="assets/images/suggestions.jpg" height="150">
+	<p>Fill out the form below so I can know your awesome ideas and suggestions!  The biggest room, is the room for improvement.</p>
+	
+	<form action="recipt.html">
+		<p><strong>Which dish are your comments related to? Please <em>Describe</em> the dish in the box below.</strong></p>
+		<input type="radio" name="dish_type" value="Pies and Breads">Pies and Breads
+		<input type="radio" name="dish_type" value="Cheese Cakes">Cheese Cakes
+		<input type="radio" name="dish_type" value="Shakes">Shakes
+		<input type="radio" name="dish_type" value="West African Cuisine">West African Cuisine
+		<input type="radio" name="dish_type" value="Recipe Suggestion">Recipe Suggestion
+		<input type="radio" name="dish_type" value="Other">Other
+		<br />
+		<p><strong>Dish Description</strong></p>
+		<textarea name="dish_describe" placeholder="Please describe the dish here."></textarea>
+		<p><strong>How would you <em>rate</em> the dish on a scale from 1 to 10? 1 being poor and 10 being wonderful.</strong></p>
+		<select>
+			<option>Please select a value.</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+		</select>
+		<p><strong>Other Thoughts? Please tell me all about them in the box below.</strong></p>
+		<textarea name="more_thoughts" placeholder="Please enter any other thoughts here."></textarea>
+		
+		<p><strong>Things stay busy around here, but we'd love to reach out and respond to your suggestions.<br />Please leave your email so we can get back in touch with you.</strong></p>
+		<img src="assets/images/letter.jpg" height="150">
+		<br />
+		<input type="email" name="email_address" placeholder="Enter email address here.">
+		
+		<p><strong>All done? Please press submit button below to send your comments and suggestions.</strong></p>
+		<input type="submit" value="Submit">
+		
+		
+	</form>
+	
+	
+	<p><a href="#top">Back To Top</a></p>
+		
+</div>
+</body>
+</html>
